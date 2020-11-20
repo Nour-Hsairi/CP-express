@@ -1,0 +1,164 @@
+
+/* navBar CSS:
+/* Style the header with a grey background and some padding */
+.header {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 20px 10px;
+}
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  font-family: cursive;
+  text-decoration: none;
+  font-size: 25px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+.header{
+  font-size: 20px;
+  font-weight: bold;
+}
+.logo{
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.header a:hover {
+  background-color: rgb(248, 112, 112);
+  color: black;
+}
+
+.header a.active {
+  background-color:rgb(248, 112, 112);
+  color: white;
+}
+
+.header-right {
+  float: right;
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header-right {
+    float: none;
+  }
+}
+/* footer css */
+footer {
+  background: #f1f1f1;
+  color: #000000;
+  font-family: cursive;
+}
+
+footer p {
+  padding: 40px 0;
+  text-align: center;
+}
+
+footer img {
+  width: 55px;
+  height: 50px;
+}
+/* contact us CSS*/
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical 
+}
+input[type=submit] {
+  background-color:rgb(248, 112, 112);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=submit]:hover {
+  background-color: rgb(248, 112, 112);
+}
+.row{
+  display: inline-block;
+  font-family: cursive;
+}
+.container {
+
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-family: cursive;
+}
+
+.card {
+  display: inline-block;
+  width: 200px;
+  height: 400px;
+  cursor: pointer;
+  padding-inline: 60px ;
+}
+
+.hd {
+  color:  rgb(248, 112, 112) ;
+  font-family: cursive;
+  font-size: 25px;
+  font-weight: 550
+}
+.t1{
+  font-family: cursive;
+  font-size: 15px;
+}
+
+.card.hover,
+.card:hover {
+  box-shadow: 0 20px 40px rgba(0, 0, 0, .2)
+}
+
+.img {
+  margin-bottom: 35px;
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222)
+}
+
+.card-title {
+  font-weight: 600
+}
+
+button.focus,
+button:focus {
+  outline: 0;
+  box-shadow: none !important
+}
+
+.ft {
+  margin-top: 25px
+}
+
+.chk {
+  font-family: cursive;
+  margin-bottom: 5px;
+  color: rgb(248, 112, 112);
+}
+
+.rck {
+  margin-top: 20px;
+  padding-bottom: 15px
+}
+.hp{
+  text-align: center;
+  justify-content: center;
+}
+.hp .hd{
+  font-size: 30px;
+}
